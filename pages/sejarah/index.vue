@@ -11,9 +11,9 @@
 import { profile } from '~/static/data'
 
 export default {
-  name: 'FeaturesPage',
+  name: 'HistoriesPage',
   data () {
-    const { title, subtitle, data } = profile.features
+    const { title, subtitle, data } = profile.histories
     return {
       title,
       subtitle,

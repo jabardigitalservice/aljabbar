@@ -1,0 +1,37 @@
+<template>
+  <div>
+    <NuxtLink to="/">
+      <BaseButton class="bg-gray-100 text-green-600 text-sm my-[22px]">
+        <img width="19.5" height="16" src="/icons/arrow-left.svg" alt="Icon Arrow Left">
+        Kembali
+      </BaseButton>
+    </NuxtLink>
+    <div class="flex flex-col lg:items-center pt-6 md:pt-[60px] gap-[26px]">
+      <h1 class="text-[32px] md:text-4xl font-medium leading-relaxed">
+        {{ title }}
+      </h1>
+      <div class="w-32 border-2 border-green-600" />
+      <p class="text-gray-700 text-xs font-light lg:text-center">
+        {{ subtitle }}
+      </p>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ProfileHeading',
+  props: {
+    title: {
+      type: String,
+      required: true,
+      default: ''
+    },
+    subtitle: {
+      type: String,
+      required: true,
+      default: ''
+    },
+  },
+}
+</script>
