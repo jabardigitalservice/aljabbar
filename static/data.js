@@ -14,7 +14,7 @@ export const navigationMenus = [
   {
     id: 3,
     title: 'Galeri Rasulullah',
-    link: '/galeri-rasulullah',
+    link: 'https://www.youtube.com/',
     items: []
   },
   {
