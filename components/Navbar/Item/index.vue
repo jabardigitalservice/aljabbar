@@ -14,7 +14,6 @@
         {{ menu.title }}
       </div>
       <img
-        v-if="hasChildren"
         src="/icons/chevron-down.svg"
         aria-hidden="true"
         class="ml-4"
