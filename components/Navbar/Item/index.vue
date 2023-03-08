@@ -8,7 +8,7 @@
         'flex px-3 py-[10px] transition-all hover:cursor-pointer hover:bg-[#FAFAFA] hover:rounded-lg hover:text-[#16A75C] items-center': true,
         'bg-[#FAFAFA] rounded-lg text-[#16A75C]': showChildren
       }"
-      @click="onClick"
+      @click="$emit('click')"
     >
       <div>
         {{ menu.title }}
@@ -57,13 +57,6 @@ export default {
   data() {
     return {
       currentIndex: null
-    }
-  },
-  methods: {
-    onClick() {
-      this.hasChildren
-        ? this.$emit('click')
-        : this.$router.push('www.youtube.com')
     }
   }
 }
