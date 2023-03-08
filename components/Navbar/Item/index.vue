@@ -3,7 +3,7 @@
     <!-- Parent Menu -->
     <div
       :class="{
-        'flex px-3 py-[10px] hover:cursor-pointer hover:bg-[#FAFAFA] hover:rounded-lg hover:text-[#16A75C]': true,
+        'flex px-3 py-[10px] transition-all hover:cursor-pointer hover:bg-[#FAFAFA] hover:rounded-lg hover:text-[#16A75C]': true,
         'bg-[#FAFAFA] rounded-lg text-[#16A75C]': showChildren
       }"
     >
@@ -95,13 +95,13 @@ export default {
 }
 </script>
 
-<style scoped>
-/* .fade-enter-active,
+<style lang="scss" scoped>
+.fade-enter-active,
 .fade-leave-active {
-  @apply transition-opacity ease-brand duration-250 opacity-100;
+  @apply transition-opacity opacity-100;
 }
 .fade-enter,
 .fade-leave-to {
   @apply opacity-0;
-} */
+}
 </style>
