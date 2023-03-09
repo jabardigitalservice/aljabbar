@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 py-[60px] md:px-6 lg:py-20 xl:px-20 xl:py-[120px]">
-    <ProfileTitle
+    <BlogTitle
       :title="title"
       :subtitle="subtitle"
     />
