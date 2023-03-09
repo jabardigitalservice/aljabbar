@@ -7,6 +7,7 @@
         :menu="menu"
         :show-children="index === currentIndex"
         @click="toggle(menu, index)"
+        @menuClicked="onChildClick"
       />
     </div>
   </transition>
@@ -30,7 +31,11 @@ export default {
       this.currentIndex = this.currentIndex === index && menu.items?.length
         ? null
         : index
-    } 
+    },
+    onChildClick() {
+      this.currentIndex = null
+      this.$emit('closeList')
+    }
   }
 }
 </script>
