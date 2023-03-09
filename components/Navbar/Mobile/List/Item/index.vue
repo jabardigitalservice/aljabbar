@@ -13,7 +13,10 @@
       </div>
       <img
         src="/icons/chevron-down.svg"
+        alt="Ikon Panah"
         aria-hidden="true"
+        width="10"
+        height="5"
         :class="{
           'transition-all -rotate-90': true,
           'rotate-0': showChildren
@@ -32,7 +35,7 @@
       v-if="hasChildren(menu)"
       v-show="showChildren"
       :menus="menu.items"
-      @click="$emit('click')"
+      @click="$emit('menuClicked')"
     />
   </div>
 </template>

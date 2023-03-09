@@ -7,7 +7,10 @@
       <img
         src="/icons/dome.svg"
         class="pt-[5px]"
+        alt="Logo Kubah"
         aria-hidden="true"
+        height="16"
+        width="16"
       >
       <div>
         <h1 class="text-black leading-[26px]">
