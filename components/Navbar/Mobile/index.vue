@@ -1,13 +1,13 @@
 <template>
   <nav class="flex bg-white justify-between fixed top-0 left-0 right-0 px-[24px] py-3 z-10">
-    <a href="/" class="hover:cursor-pointer">
+    <NuxtLink to="/" class="hover:cursor-pointer">
       <img
         src="@/assets/logo.svg"
         alt="Logo Al Jabbar"
         width="175"
         height="36"
       >
-    </a>
+    </NuxtLink>
     <button @click="showList = !showList">
       <img
         :src="`/icons/${menuIcon}.svg`"
