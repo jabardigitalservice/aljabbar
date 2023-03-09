@@ -13,6 +13,7 @@
         >
           <img
             src="/icons/close-circle.svg"
+            alt="Logo Tutup"
             aria-hidden="true"
             height="32"
             width="32"

@@ -15,6 +15,7 @@
       </div>
       <img
         src="/icons/chevron-down.svg"
+        alt="Ikon Panah"
         aria-hidden="true"
         class="ml-4"
         width="10"
