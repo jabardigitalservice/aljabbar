@@ -2,7 +2,9 @@
   <div>
     <NuxtLink to="/">
       <BaseButton class="bg-gray-100 text-green-600 text-sm my-[22px]">
-        <img width="19.5" height="16" src="/icons/arrow-left.svg" alt="Icon Arrow Left">
+        <template #icon-left>
+          <img width="19.5" height="16" src="/icons/arrow-left.svg" alt="Icon Arrow Left">
+        </template>
         Kembali
       </BaseButton>
     </NuxtLink>
