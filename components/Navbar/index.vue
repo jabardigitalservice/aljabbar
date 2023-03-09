@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white fixed top-0 left-0 right-0 px-[80px] py-5 z-10">
+  <nav class="bg-white fixed top-0 left-0 right-0 py-5 z-10">
     <BaseContainer class="flex justify-between">
       <NuxtLink to="/" class="hover:cursor-pointer">
         <img
