@@ -6,9 +6,9 @@
       aria-hidden="true"
     >
     <div>
-      <a :href="item.link" class="text-black leading-[26px]">
+      <nuxt-link :href="item.link" class="text-black leading-[26px]">
         {{ item.title }}
-      </a>
+      </nuxt-link>
       <p class="text-xs leading-5 text-[#616161]">
         {{ item.description }}
       </p>
