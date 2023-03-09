@@ -1,33 +1,35 @@
 <template>
   <transition name="fade" mode="out-in">
     <div
-      class="absolute flex flex-col py-8 px-[80px] bg-white mt-6 left-0 right-0 border-t border-[#EEEEEE] border-solid"
+      class="absolute bg-white mt-6 left-0 right-0"
     >
-      <div class="flex justify-between mb-[38px]">
-        <h1 class="font-medium text-[32px] leading-[38.4px] text-black">
-          {{ menu.title }}
-        </h1>
-        <button
-          class="hover:cursor-pointer"
-          @click="$emit('click')"
-        >
-          <img
-            src="/icons/close-circle.svg"
-            alt="Logo Tutup"
-            aria-hidden="true"
-            height="32"
-            width="32"
+      <BaseContainer class="flex flex-col py-8 border-t border-[#EEEEEE] border-solid">
+        <div class="flex justify-between mb-[38px]">
+          <h1 class="font-medium text-[32px] leading-[38.4px] text-black">
+            {{ menu.title }}
+          </h1>
+          <button
+            class="hover:cursor-pointer"
+            @click="$emit('click')"
           >
-        </button>
-      </div>
-      <ul class="flex justify-between w-full">
-        <NavbarChildListItem
-          v-for="(child, childIndex) in menu.items"
-          :key="childIndex"
-          :item="child"
-          @click="$emit('click')"
-        />
-      </ul>
+            <img
+              src="/icons/close-circle.svg"
+              alt="Logo Tutup"
+              aria-hidden="true"
+              height="32"
+              width="32"
+            >
+          </button>
+        </div>
+        <ul class="flex justify-between w-full">
+          <NavbarChildListItem
+            v-for="(child, childIndex) in menu.items"
+            :key="childIndex"
+            :item="child"
+            @click="$emit('click')"
+          />
+        </ul>
+      </BaseContainer>
     </div>
   </transition>
 </template>
