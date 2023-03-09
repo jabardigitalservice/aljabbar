@@ -1,15 +1,17 @@
 <template>
-  <div class="px-4 py-[60px] md:px-6 lg:py-20 xl:px-20 xl:py-[120px] flex flex-col gap-10 md:gap-[60px] lg:gap-[120px]">
-    <BlogTitle
-      :title="title"
-      :subtitle="subtitle"
-    />
-    <BlogContent
-      v-for="item in data"
-      :key="item.id"
-      :data="item"
-    />
-  </div>
+  <BaseContainer>
+    <div class="flex flex-col gap-10 md:gap-[60px] lg:gap-[120px] py-[60px] lg:py-20 xl:py-[120px]">
+      <BlogTitle
+        :title="title"
+        :subtitle="subtitle"
+      />
+      <BlogContent
+        v-for="item in data"
+        :key="item.id"
+        :data="item"
+      />
+    </div>
+  </BaseContainer>
 </template>
 
 <script>
