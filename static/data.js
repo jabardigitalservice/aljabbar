@@ -152,51 +152,51 @@ export const profile = Object.freeze(
       data: [
         {
           id: 1,
-          title: '',
-          content: '',
+          title: 'Tempat Wudhu Outdoor',
+          content: 'Salah satu pengalaman yang harus dicoba di sini adalah mengambil air wudu di area halaman masjid. Arsitek membuat paviliun wudu yang terinspirasi dari masjid-masjid besar di Turki. Kapan lagi kan mencoba berwudu ala masjid Turki tanpa harus terbang ke sana.',
           isImageFirst: false,
           image: ''
         },
         {
           id: 2,
-          title: '',
-          content: '',
-          isImageFirst: false,
+          title: 'Area Shalat Utama',
+          content: 'Bersiaplah untuk terpesona dengan keindahan area salat Masjid Raya Al Jabbar, dan rasakan sensasinya untuk salat di ruangan yang sangat megah ini! Jika memungkinkan, spot foto terbaik berada di depan mihrab dan arahkan kameramu agak ke atas sehingga lafaz Allah dan keindahan plafon pun akan terlihat.',
+          isImageFirst: true,
           image: ''
         },
         {
           id: 3,
-          title: '',
-          content: '',
+          title: 'Museum Rasulullah',
+          content: 'Salah satu fasilitas yang dihadirkan di Masjid Raya Al Jabbar adalah museum Nabi Muhammad SAW. Uniknya, semua konten akan dihadirkan secara digital, dengan tampilan visual yang menarik. Jangan khawatir juga, museum ini terbuka untuk umum ya!',
           isImageFirst: false,
           image: ''
         },
         {
           id: 4,
-          title: '',
-          content: '',
-          isImageFirst: false,
+          title: 'Koridor',
+          content: 'Koridor Masjid Raya Al Jabbar dibuat mengelilingi halaman utama. Kita akan disuguhkan sudut pandang yang berlainan saat memandang masjid. Sebelum terlewat, berhentilah sejenak tepat di tengah-tengah koridor dan nikmatilah pemandangan masjid 180 derajat!',
+          isImageFirst: true,
           image: ''
         },
         {
           id: 5,
-          title: '',
-          content: '',
+          title: 'Jembatan Nabi Musa',
+          content: 'Jembatan Nabi Musa menjadi penghubung antara plaza dengan halaman utama masjid. Jembatan ini berkisah tentang salah satu mukjizat Nabi Musa AS, yaitu dapat membelah lautan. Berjalan di antara air mancur yang tingginya hampir 2x manusia normal membuat kita seakan berjalan di antara lautan.',
           isImageFirst: false,
           image: ''
         },
         {
           id: 6,
-          title: '',
-          content: '',
+          title: '5 Taman Nabi',
+          content: 'Selain jembatan Nabi Musa, kawasan masjid juga menghadirkan taman Nabi Adam, taman Nabi Nuh, taman Nabi Ibrahim, taman Nabi Yunus, dan taman Nabi Isa. Kelima taman memiliki desain yang berbeda sesuai dengan kisah masing-masing nabi, serta menghadirkan keanekaragaman tanaman di Jawa Barat.',
           isImageFirst: false,
           image: ''
         },
         {
           id: 7,
-          title: '',
-          content: '',
-          isImageFirst: false,
+          title: 'Spot Foto Menarik',
+          content: 'Kurang lengkap rasanya kalau mengunjungi masjid ini tanpa mengabadikannya di kamera atau ponsel pintar kamu. Jangan bingung, semua sisi dan bagian bangunan punya kecantikannya tersendiri yang bisa menjadi spot foto terbaikmu!',
+          isImageFirst: true,
           image: ''
         },
       ]
