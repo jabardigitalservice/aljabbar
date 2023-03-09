@@ -1,13 +1,13 @@
 <template>
   <nav class="flex bg-white justify-between fixed top-0 left-0 right-0 px-[80px] py-5 z-10">
-    <a href="/" class="hover:cursor-pointer">
+    <nuxt-link to="/" class="hover:cursor-pointer">
       <img
         src="@/assets/logo.svg"
         alt="Logo Al Jabbar"
         width="234"
         height="48"
       >
-    </a>
+    </nuxt-link>
     <ul class="flex items-center gap-6 text-[#757575] text-base">
       <li
         v-for="(menu, index) in navigationMenus"
