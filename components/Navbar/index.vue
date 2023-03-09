@@ -1,6 +1,6 @@
 <template>
   <nav class="flex bg-white justify-between fixed top-0 left-0 right-0 px-[80px] py-5 z-10">
-    <nuxt-link href="/" class="hover:cursor-pointer">
+    <nuxt-link to="/" class="hover:cursor-pointer">
       <img
         src="@/assets/logo.svg"
         alt="Logo Al Jabbar"

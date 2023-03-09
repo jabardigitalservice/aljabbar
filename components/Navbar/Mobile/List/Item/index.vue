@@ -32,6 +32,7 @@
       v-if="hasChildren(menu)"
       v-show="showChildren"
       :menus="menu.items"
+      @click="$emit('click')"
     />
   </div>
 </template>
