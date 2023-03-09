@@ -22,6 +22,7 @@
           v-for="(child, childIndex) in menu.items"
           :key="childIndex"
           :item="child"
+          @click="$emit('click')"
         />
       </ul>
     </div>
