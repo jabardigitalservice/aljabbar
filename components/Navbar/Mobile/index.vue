@@ -13,6 +13,8 @@
         :src="`/icons/${menuIcon}.svg`"
         alt="Navbar Menu Button"
         class="hover:cursor-pointer transition-all"
+        height="24"
+        width="24"
       >
     </button>
     <NavbarMobileList

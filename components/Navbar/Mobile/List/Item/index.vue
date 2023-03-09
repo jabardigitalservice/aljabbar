@@ -14,6 +14,8 @@
       <img
         src="/icons/chevron-down.svg"
         aria-hidden="true"
+        width="10"
+        height="5"
         :class="{
           'transition-all -rotate-90': true,
           'rotate-0': showChildren

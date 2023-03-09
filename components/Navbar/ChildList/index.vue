@@ -14,6 +14,8 @@
           <img
             src="/icons/close-circle.svg"
             aria-hidden="true"
+            height="32"
+            width="32"
           >
         </button>
       </div>

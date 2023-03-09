@@ -17,6 +17,8 @@
         src="/icons/chevron-down.svg"
         aria-hidden="true"
         class="ml-4"
+        width="10"
+        height="5"
       >
     </button>
     <a
