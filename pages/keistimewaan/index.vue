@@ -4,7 +4,11 @@
       :title="title"
       :subtitle="subtitle"
     />
-    <BlogContent :data="data" />
+    <BlogContent
+      v-for="item in data"
+      :key="item.id"
+      :data="item"
+    />
   </div>
 </template>
 
