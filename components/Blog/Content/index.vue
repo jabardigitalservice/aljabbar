@@ -6,8 +6,8 @@
       <h2 v-if="data.title" class="text-gray-900 text-[32px] md:text-4xl font-medium leading-relaxed w-full break-words">
         {{ data.title }}
       </h2>
-      <p class="text-gray-800 text-sm font-normal w-full break-words">
-        {{ data.content }}
+      <p v-for="(item, index) in data.content" :key="index" class="text-gray-800 text-sm font-normal w-full break-words">
+        {{ item }}
       </p>
     </div>
     <!-- TODO: replace div below with image when available -->
