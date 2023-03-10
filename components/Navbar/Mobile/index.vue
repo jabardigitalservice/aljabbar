@@ -20,12 +20,14 @@
     <NavbarMobileList
       v-show="showList"
       :menus="navigationMenus"
+      @closeList="showList = false"
     />
   </nav>
 </template>
 
 <script>
 import { navigationMenus } from '@/static/data'
+import { lockScroll } from '~/utils/browser'
 
 export default {
   data() {
@@ -37,6 +39,11 @@ export default {
   computed: {
     menuIcon() {
       return this.showList ? 'close': 'menu'
+    }
+  },
+  watch: {
+    showList() {
+      lockScroll(this.showList)
     }
   }
 }
