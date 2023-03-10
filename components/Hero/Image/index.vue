@@ -1,8 +1,9 @@
 <template>
   <div class="h-[740px]">
+    <!-- @todo: discuss with IPJ team about this div
     <div
       class="w-full h-full absolute top-0"
-    />
+    /> -->
     <Carousel :items="images">
       <template #filter>
         <div
