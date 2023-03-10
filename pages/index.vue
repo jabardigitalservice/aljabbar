@@ -1,5 +1,8 @@
 <template>
-  <h1 class="text-blue-400">Al-Jabbar</h1>
+  <div>
+    <!-- @todo: delete dummy padding -->
+    <VisitRules class="my-40" />
+  </div>
 </template>
 
 <script>
