@@ -37,21 +37,18 @@ export default {
   props: {
     items: {
       type: Array,
-      required: true
+      default: () => ([])
     },
     duration: {
       type: Number,
-      required: false,
       default: 3000
     },
     hover: {
       type: Boolean,
-      required: false,
       default: false
     },
     pauseOnHover: {
       type: Boolean,
-      required: false,
       default: false
     }
   },
