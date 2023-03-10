@@ -298,3 +298,10 @@ export const profile = Object.freeze(
     },
   },
 )
+
+export const activities = Object.freeze(
+  {
+    title: 'Kegiatan Masjid Raya Al Jabbar',
+    subtitle: 'Masjid Raya Al-Jabbar memiliki agenda rutin harian dan juga agenda yang diadakan oleh organisasi masyarakat dan agenda publik.'
+  }
+)
