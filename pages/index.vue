@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero />
     <!-- @todo: delete dummy padding -->
     <VisitRules class="my-40" />
   </div>
@@ -7,6 +8,5 @@
 
 <script>
 export default {
-  name: 'IndexPage'
 }
 </script>
