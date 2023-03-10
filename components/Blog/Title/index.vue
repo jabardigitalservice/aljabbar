@@ -9,7 +9,7 @@
       </BaseButton>
     </NuxtLink>
     <div class="flex flex-col lg:items-center pt-6 md:pt-[60px] gap-[26px]">
-      <h1 class="text-[32px] md:text-4xl font-medium leading-relaxed">
+      <h1 class="text-[32px] md:text-4xl font-medium leading-relaxed text-gray-900">
         {{ title }}
       </h1>
       <div class="w-32 border-2 border-green-600" />
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'ProfileHeading',
+  name: 'BlogHeading',
   props: {
     title: {
       type: String,
