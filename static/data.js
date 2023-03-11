@@ -305,3 +305,29 @@ export const activities = Object.freeze(
     subtitle: 'Masjid Raya Al-Jabbar memiliki agenda rutin harian dan juga agenda yang diadakan oleh organisasi masyarakat dan agenda publik.'
   }
 )
+
+export const filterActivities = Object.freeze(
+  {
+    status: [
+      'Belum Dimulai',
+      'Sedang Berlangsung',
+      'Telah Selesai'
+    ],
+    type: [
+      'Offline',
+      'Online',
+      'Hybrid'
+    ],
+    variety: [
+      'Taklim Rutin DKM',
+      'Taklim dari Masyarakat',
+      'Program Ramadhan',
+      'Hari Besar Islam',
+      'Bisnis dan Partnership',
+      'Kunjungan Studi Banding',
+      'Kunjungan Riset',
+      'Kunjungan Wisata Religi',
+      'Rapat DKM Al jabbar'
+    ]
+  }
+)
