@@ -30,7 +30,7 @@
         </li>
       </ul>
     </ul>
-    <ul class="list-none list-inside space-y-2 border-b border-gray-300 py-4 text-sm text-gray-800 font-normal">
+    <ul class="list-none list-inside space-y-2 py-4 text-sm text-gray-800 font-normal">
       <li>
         <input type="checkbox" class="accent-green-600 mr-1" value="Jenis Kegiatan" v-model="checkedVariety" @change="toggleVariety">
         <span class="font-semibold">Jenis Kegiatan</span>
