@@ -105,15 +105,15 @@ export default {
     getPrayerName(key) {
       switch (key) {
         case 'fajr':
-          return 'Sholat Shubuh'
+          return 'Shalat Shubuh'
         case 'dhuhr':
-          return 'Sholat Dzuhur'
+          return 'Shalat Dzuhur'
         case 'asr':
-          return 'Sholat Ashar'
+          return 'Shalat Ashar'
         case 'maghrib':
-          return 'Sholat Maghrib'
+          return 'Shalat Maghrib'
         case 'isha':
-          return 'Sholat Isya'
+          return 'Shalat Isya'
         default:
           return '-'
       }
