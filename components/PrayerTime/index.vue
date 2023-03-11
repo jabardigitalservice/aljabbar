@@ -7,12 +7,12 @@
           Jadwal Shalat Selanjutnya
         </h1>
         <h2 class="font-bold text-[40px] md:text-[56px] leading-[48px] md:leading-[67px] text-white">
-          Shalat Dzuhur
+          {{nextPrayerName }}
         </h2>
         <p>
           akan dimulai dalam
           <span class="font-bold text-base md:text-[20px] text-white leading-[19px] md:leading-[24px]">
-            03 jam : 34 menit
+            0{{ nextPrayerInHour }} jam : {{ nextPrayerInMinutes }} menit
           </span>
           lagi
         </p>
@@ -25,7 +25,7 @@
             {{ time.prayer }}
           </p>
           <p class="text-sm text-[#C3E9D0] leading-[23px]">
-            {{ time.time }}
+            {{ time.time }} WIB
           </p>
         </div>
       </div>
@@ -34,36 +34,89 @@
 </template>
 
 <script>
+import { getHoursAndMinutes, getMinutesDifferenceFromNow } from '~/utils/date'
+
 export default {
+  async fetch() {
+    const now = new Date().toLocaleDateString('fr-CA')
+    const response = await this.$axios.$get(`/v1/prayer-times/${now}`)
+    const times = response.data.times
+    this.rawTimeList = { ...times }
+    this.findNextPrayerTime()
+    this.prayerTimes = [
+      {
+        prayer: 'Shalat Shubuh',
+        time: getHoursAndMinutes(times.fajr)
+      },
+      {
+        prayer: 'Syuruk/Terbit',
+        time: getHoursAndMinutes(times.sunrise)
+      },
+      {
+        prayer: 'Shalat Dzuhur',
+        time: getHoursAndMinutes(times.dhuhr)
+      },
+      {
+        prayer: 'Shalat Ashar',
+        time: getHoursAndMinutes(times.asr)
+      },
+      {
+        prayer: 'Shalat Maghrib',
+        time: getHoursAndMinutes(times.maghrib)
+      },
+      {
+        prayer: 'Shalat Isya',
+        time: getHoursAndMinutes(times.isha)
+      }
+    ]
+  },
+  fetchOnServer: true,
   data() {
     return {
-      // @todo: replace this dummy data
-      prayerTimes: [
-        {
-          prayer: 'Shalat Shubuh',
-          time: '04.36 WIB'
-        },
-        {
-          prayer: 'Syuruk/Terbit',
-          time: '04.36 WIB'
-        },
-        {
-          prayer: 'Shalat Dzuhur',
-          time: '04.36 WIB'
-        },
-        {
-          prayer: 'Shalat Ashar',
-          time: '04.36 WIB'
-        },
-        {
-          prayer: 'Shalat Maghrib',
-          time: '04.36 WIB'
-        },
-        {
-          prayer: 'Shalat Isya',
-          time: '04.36 WIB'
+      prayerTimes: [],
+      rawTimeList: [],
+      nextPrayerName: '',
+      nextPrayerInHour: 0,
+      nextPrayerInMinutes: 0
+    }
+  },
+  methods: {
+    findNextPrayerTime() {
+      const typeOfPrayers = Object.keys(this.rawTimeList)
+      let minDifference
+      let prayerName
+      typeOfPrayers.forEach(type => { // ["imsak", "fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha"]
+        if (type !== 'imsak' && type !== 'sunrise') {
+          const currentDifference = getMinutesDifferenceFromNow(this.rawTimeList[type])
+          if ((minDifference === undefined || minDifference > currentDifference) && currentDifference > 0) {
+            minDifference = currentDifference
+            prayerName = type
+          }
         }
-      ]
+      });
+
+      this.nextPrayerName = this.getPrayerName(prayerName)
+      this.nextPrayerInHour = Math.floor(minDifference / 60)
+      this.nextPrayerInMinutes = (minDifference - this.nextPrayerInHour * 60) % 60
+      if (this.nextPrayerInMinutes < 10) {
+        this.nextPrayerInMinutes = `0${this.nextPrayerInMinutes}`
+      }
+    },
+    getPrayerName(key) {
+      switch (key) {
+        case 'fajr':
+          return 'Sholat Shubuh'
+        case 'dhuhr':
+          return 'Sholat Dzuhur'
+        case 'asr':
+          return 'Sholat Ashar'
+        case 'maghrib':
+          return 'Sholat Maghrib'
+        case 'isha':
+          return 'Sholat Isya'
+        default:
+          return '-'
+      }
     }
   }
 }
