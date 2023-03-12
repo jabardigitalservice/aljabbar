@@ -7,6 +7,20 @@
         <NewsCard v-for="(news, index) in newsList" :key="index" :news="news" />
       </div>
     </div>
+    <BaseButton class="md:hidden max-h-[38px] w-full my-12 text-[#16A75C] font-bold text-sm leading-[18px] rounded-lg border-[#16A75C]">
+      <div class="flex justify-between w-full">
+        <a :href="`https://jabarprov.go.id/pencarian/berita?q=al%20jabbar`" target="_blank">
+          Lihat Semua Berita
+        </a>
+        <img
+          src="/icons/open-tab.svg"
+          alt="Ikon buka tab baru"
+          aria-hidden="true"
+          width="20"
+          height="20"
+        >
+      </div>
+    </BaseButton>
   </BaseContainer>
 </template>
 
