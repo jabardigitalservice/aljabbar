@@ -3,7 +3,7 @@
     <Hero />
     <PrayerTime />
     <!-- @todo: delete dummy padding -->
-    <VisitRules class="my-40" />
+    <VisitRules class="mt-[60px]" />
     <Videos />
     <News />
   </div>
