@@ -8,7 +8,9 @@
         <div class="border-t-[3px] border-[#16A75C] max-w-[128px] mt-[26px]" />
       </div>
       <BaseButton class="hidden md:block max-h-[38px] text-[#16A75C] font-bold text-sm leading-[18px] rounded-lg border-[#16A75C]">
-        Lihat Semua Berita
+        <a :href="`https://jabarprov.go.id/pencarian/berita?q=al%20jabbar`" target="_blank">
+          Lihat Semua Berita
+        </a>
         <template #icon-right>
           <img
             src="/icons/open-tab.svg"

@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <!-- @todo: scale bg image on hover state -->
-    <div
-      class="w-full h-full bg-cover bg-no-repeat rounded-lg"
-      :style="`background-image: url('${news.thumbnail}')`"
+  <a :href="`https://jabarprov.go.id/berita/${news.slug}`" target="_blank">
+    <article
+      class="relative w-full h-full rounded-lg group overflow-hidden hover:cursor-pointer"
     >
-      <div class="w-full h-full bg-gradient-to-t from-[#000000]/100 to-[#000000]/0 rounded-lg text-white p-4 flex flex-col justify-end">
+      <div
+        class="absolute w-full h-full bg-cover bg-no-repeat rounded-lg group-hover:scale-110 transition-all"
+        :style="`background-image: url('${news.thumbnail}')`"
+      />
+      <div class="absolute w-full h-full bg-gradient-to-t from-[#000000]/100 to-[#000000]/0 rounded-lg text-white p-4 flex flex-col justify-end">
         <h2 class="font-bold text-[26px] leading-10 line-clamp-3 mb-4">
           {{ news.title }}
         </h2>
@@ -17,8 +19,8 @@
           <p>Dilihat 247 Kali</p> -->
         </div>
       </div>
-    </div>
-  </div>
+    </article>
+  </a>
 </template>
 
 <script>
