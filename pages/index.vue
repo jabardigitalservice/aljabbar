@@ -4,6 +4,7 @@
     <PrayerTime />
     <!-- @todo: delete dummy padding -->
     <VisitRules class="my-40" />
+    <News />
   </div>
 </template>
 
