@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer>
+  <BaseContainer class="py-12 md:py-[60px] xl:py-20">
     <NewsHeader class="mb-8 md:mb-12" />
     <div class="grid grid-cols-1 lg:grid-cols-[393px,auto] xl:grid-cols-[515px,auto] lg:gap-[38px] xl:gap-[46px]">
       <NewsHeadline :news="firstNews" class="min-h-[447px] lg:min-h-full mb-[38px] lg:mb-0" />
@@ -7,7 +7,7 @@
         <NewsCard v-for="(news, index) in newsList" :key="index" :news="news" />
       </div>
     </div>
-    <BaseButton class="md:hidden max-h-[38px] w-full my-12 text-[#16A75C] font-bold text-sm leading-[18px] rounded-lg border-[#16A75C]">
+    <BaseButton class="md:hidden max-h-[38px] w-full mt-12 text-[#16A75C] font-bold text-sm leading-[18px] rounded-lg border-[#16A75C]">
       <div class="flex justify-between w-full">
         <a :href="`https://jabarprov.go.id/pencarian/berita?q=al%20jabbar`" target="_blank">
           Lihat Semua Berita
