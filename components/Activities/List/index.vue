@@ -51,10 +51,6 @@ export default {
       type: Date,
       default: null
     },
-    items: {
-      type: Array,
-      default: () => []
-    }
   },
   computed: {
     getDate () {
@@ -75,10 +71,6 @@ export default {
   },
   data () {
     return {
-      query: {
-        start_date: '',
-        end_date: '',
-      },
       // TODO: replace data dummy with API
       activities: [
         {

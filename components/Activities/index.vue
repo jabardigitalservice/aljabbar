@@ -3,6 +3,7 @@
     <ActivitiesFilter />
     <div class="flex flex-col gap-8">
       <ActivitiesList v-if="getSelectedTime === 'today'" />
+      <!-- TODO: Update list eachDayOfWeek to check if activities is exist in that day -->
       <ActivitiesList
         v-else
         v-for="(item, index) in eachDayOfWeek"
