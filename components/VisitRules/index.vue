@@ -11,7 +11,7 @@
       </BaseContainer>
     </section>
 
-    <section class="flex flex-col md:flex-row px-6 gap-6 xl:justify-center -mt-40 md:-mt-28 lg:-mt-24">
+    <section class="flex flex-col md:flex-row px-6 gap-6 xl:justify-center -mt-40 md:-mt-28 lg:-mt-24 mb-[60px]">
       <VisitRulesCard class="xl:max-w-[515px]" />
       <VisitRulesCard prohibition class="xl:max-w-[515px]" />
     </section>

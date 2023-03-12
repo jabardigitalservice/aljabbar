@@ -50,11 +50,11 @@ export function getEachDay ({ start, end }) {
   return eachDayOfInterval({ start: new Date(start), end: new Date(end) })
 }
 
-export function getHoursAndMinutes (date) {
+export function getHoursAndMinutes (date, separator = '.') {
   const time = new Date(date)
-  const hour = time.getUTCHours()
+  const hour = `${time.getUTCHours()<10 ? '0' : ''}${time.getUTCHours()}`
   const minute = `${time.getUTCMinutes()<10 ? '0' : ''}${time.getUTCMinutes()}`
-  return `${hour}.${minute}`
+  return `${hour}${separator}${minute}`
 }
 
 export function getMinutesDifferenceFromNow (date) {
