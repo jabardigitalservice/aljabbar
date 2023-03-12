@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-8">
     <div class="flex gap-6">
-      <div class="flex justify-center items-center bg-[url('/icons/calendar.svg')] bg-contain w-[60px] h-[60px]">
+      <div class="flex justify-center items-center bg-[url('/icons/calendar-frame.svg')] bg-contain w-[60px] h-[60px]">
         <span class="text-gray-800 text-[32px] font-roboto font-medium mt-3">
           {{ getDate }}
         </span>
@@ -103,28 +103,6 @@ export default {
           "asal_instansi_pemateri": "Yayasan Pendidikan Islam Al-Falah",
           "status": "Telah Selesai"
         },
-        {
-          "id": "TAKLIMRU-3",
-          "nama_kegiatan": "Diskusi Kitab",
-          "jenis_kegiatan": "Taklim Rutin DKM",
-          "tipe_kegiatan": "offline",
-          "tanggal_kegiatan": "2023-03-09",
-          "jam_mulai": "12:00:00",
-          "jam_selesai": "15:00:00",
-          "lokasi_kegiatan": "Ruang Edukasi",
-          "link_kegiatan": "-",
-          "poster_kegiatan": "https://dummyimage.com/1080x1080/000/fff",
-          "nama_majelis_taklim": "MT Al-Falah",
-          "alamat_majelis_taklim": "Jalan Kaliurang km 12",
-          "no_hp_pj_majelis_taklim": "8234567890",
-          "nama_pj_majelis_taklim": "Kurniawan Dwi Nugroho",
-          "logo_penyelenggara": "https://dummyimage.com/400x400/000/fff",
-          "logo_aljabar": "https://dummyimage.com/400x400/000/fff",
-          "nama_pemateri": "Ustadz Ahmad Zaki",
-          "gelar_pemateri": "Ustadz",
-          "asal_instansi_pemateri": "Yayasan Pendidikan Islam Al-Falah",
-          "status": "Telah Selesai"
-        }
       ],
     }
   },
