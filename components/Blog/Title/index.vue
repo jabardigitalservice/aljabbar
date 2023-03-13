@@ -8,7 +8,7 @@
         Kembali
       </BaseButton>
     </NuxtLink>
-    <div class="flex flex-col lg:items-center pt-6 md:pt-[60px] gap-[26px]">
+    <div class="flex flex-col lg:items-center pt-6 md:pt-[60px] gap-[26px] mb-10">
       <h1 class="text-[32px] md:text-4xl font-medium leading-relaxed text-gray-900">
         {{ title }}
       </h1>
@@ -17,6 +17,7 @@
         {{ subtitle }}
       </p>
     </div>
+    <slot />
   </div>
 </template>
 

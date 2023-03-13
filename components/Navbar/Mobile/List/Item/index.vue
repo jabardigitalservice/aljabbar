@@ -26,7 +26,7 @@
     <a
       v-else
       :href="menu.link"
-      target="_blank"
+      :target="menu.link.startsWith('http') ? '_blank' : ''"
       class="flex px-3 py-[10px] transition-all hover:cursor-pointer"
     >
       {{ menu.title }}

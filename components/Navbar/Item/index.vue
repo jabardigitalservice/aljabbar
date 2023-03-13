@@ -1,7 +1,6 @@
 <template>
   <div class="px-2 py-[6px]">
     <!-- Parent Menu -->
-    <!-- @todo: change hasChildren condition into external or internal link -->
     <button
       v-if="hasChildren"
       :class="{
@@ -25,7 +24,7 @@
     <a
       v-else
       :href="menu.link"
-      target="_blank"
+      :target="menu.link.startsWith('http') ? '_blank' : ''"
       class="flex px-3 py-[10px] transition-all hover:cursor-pointer hover:bg-[#FAFAFA] hover:rounded-lg hover:text-[#16A75C]"
     >
       {{ menu.title }}
