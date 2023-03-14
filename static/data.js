@@ -207,37 +207,37 @@ export const profile = Object.freeze(
           id: 1,
           title: 'Tempat Wudhu Outdoor',
           content: [
-            'Salah satu pengalaman yang harus dicoba di sini adalah mengambil air wudu di area halaman masjid. Arsitek membuat paviliun wudu yang terinspirasi dari masjid-masjid besar di Turki. Kapan lagi kan mencoba berwudu ala masjid Turki tanpa harus terbang ke sana.'
+            'Salah satu pengalaman yang harus dicoba di sini adalah mengambil air wudu di area halaman masjid. Arsitek membuat paviliun wudu yang terinspirasi dari masjid-masjid besar di Turki.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/facilities/tempat-wudhu-outdoor.png'
         },
         {
           id: 2,
-          title: 'Area Shalat Utama',
+          title: 'Tempat Wudhu Indoor',
           content: [
-            'Bersiaplah untuk terpesona dengan keindahan area salat Masjid Raya Al Jabbar, dan rasakan sensasinya untuk salat di ruangan yang sangat megah ini! Jika memungkinkan, spot foto terbaik berada di depan mihrab dan arahkan kameramu agak ke atas sehingga lafaz Allah dan keindahan plafon pun akan terlihat.'
+            'Bagi jemaah yang merasa kurang nyaman untuk berwudu di area terbuka, masjid ini juga menyediakan tempat wudu tertutup di area ma’rodh lantai dasar.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/facilities/tempat-wudhu-indoor.png'
         },
         {
           id: 3,
-          title: 'Museum Rasulullah',
+          title: 'Area Shalat Utama',
           content: [
-            'Salah satu fasilitas yang dihadirkan di Masjid Raya Al Jabbar adalah museum Nabi Muhammad SAW. Uniknya, semua konten akan dihadirkan secara digital, dengan tampilan visual yang menarik. Jangan khawatir juga, museum ini terbuka untuk umum ya!'
+            'Area salat Masjid Raya Al Jabbar dibuat dengan sentuhan indah dan jemaah dapat merasakan sensasi salat di ruangan yang sangat megah. Jika memungkinkan, spot foto terbaik berada di depan mihrab dan arahkan kamera agak ke atas sehingga lafaz Allah dan keindahan plafon pun akan terlihat.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/facilities/area-shalat-utama.png'
         },
         {
           id: 4,
           title: 'Koridor',
           content: [
-            'Koridor Masjid Raya Al Jabbar dibuat mengelilingi halaman utama. Kita akan disuguhkan sudut pandang yang berlainan saat memandang masjid. Sebelum terlewat, berhentilah sejenak tepat di tengah-tengah koridor dan nikmatilah pemandangan masjid 180 derajat!'
+            'Koridor Masjid Raya Al Jabbar dibuat mengelilingi halaman utama. Kita akan disuguhkan sudut pandang yang berlainan saat memandang masjid. Sebelum terlewat, berhentilah sejenak tepat di tengah-tengah koridor dan nikmatilah pemandangan masjid 180 derajat.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/facilities/koridor.png'
         },
         {
           id: 5,
@@ -250,21 +250,201 @@ export const profile = Object.freeze(
         },
         {
           id: 6,
-          title: '5 Taman Nabi',
+          title: 'Taman Tematik Nabi',
           content: [
-            'Selain jembatan Nabi Musa, kawasan masjid juga menghadirkan taman Nabi Adam, taman Nabi Nuh, taman Nabi Ibrahim, taman Nabi Yunus, dan taman Nabi Isa. Kelima taman memiliki desain yang berbeda sesuai dengan kisah masing-masing nabi, serta menghadirkan keanekaragaman tanaman di Jawa Barat.'
+            'Kawasan masjid menghadirkan taman Nabi Adam, taman Nabi Nuh, taman Nabi Ibrahim, taman Nabi Yunus, dan taman Nabi Isa. Kelima taman memiliki desain yang berbeda sesuai dengan kisah masing-masing nabi serta menghadirkan keanekaragaman tanaman di Jawa Barat.'
+          ],
+          isImageFirst: true,
+          image: ''
+        },
+        {
+          id: 7,
+          title: 'Gerbang Pelataran',
+          content: [
+            'Bagian koridor yang terhubung langsung dengan jembatan Nabi Musa diberikan aksen yang sedikit berbeda. Kanopi pada titik ini ditinggikan sehingga membentuk elemen seperti gerbang.'
           ],
           isImageFirst: false,
           image: ''
         },
         {
-          id: 7,
-          title: 'Spot Foto Menarik',
+          id: 8,
+          title: 'Akses Kursi Roda',
           content: [
-            'Kurang lengkap rasanya kalau mengunjungi masjid ini tanpa mengabadikannya di kamera atau ponsel pintar kamu. Jangan bingung, semua sisi dan bagian bangunan punya kecantikannya tersendiri yang bisa menjadi spot foto terbaikmu!'
+            'Sejak awal desain masjid dibuat agar lebih inklusif dan ramah pengunjung. Tidak perlu khawatir bagi jemaah yang datang menggunakan kursi roda, akses menuju lantai salat juga dilengkapi dengan ramp di kanan-kiri tangga utama.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/akses-kursi-roda.png'
+        },
+        {
+          id: 9,
+          title: 'Selasar Pelataran',
+          content: [
+            'Bangunan masjid berdiri di depan pelataran besar yang dapat diakses melalui jembatan Nabi Musa. Pelataran menjadi ruang tambahan yang dapat menampung jemaah di hari-hari raya.'
+          ],
+          isImageFirst: false,
+          image: ''
+        },
+        {
+          id: 10,
+          title: 'Tangga Utama',
+          content: [
+            'Tangga utama masjid didesain sangat lebar dengan hiasan pot-pot bunga berwarna ungu. Tangga ini terdapat di area pelataran dan merupakan akses langsung menuju ruang salat.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/tangga-utama.png'
+        },
+        {
+          id: 11,
+          title: 'Mihrab',
+          content: [
+            'Mihrab di bagian depan area salat digunakan untuk imam memimpin salat dan sebagai penunjuk arah kiblat jemaah yang akan beribadah.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/mihrab.png'
+        },
+        {
+          id: 12,
+          title: 'Plaza Depan',
+          content: [
+            'Plaza depan yang berada dekat dengan area drop-off ini dirancang berupa taman melingkar dengan patung berbentuk kaligrafi Al-Jabbar di tengahnya.'
           ],
           isImageFirst: true,
           image: ''
+        },
+        {
+          id: 13,
+          title: 'Ruang Temporer Marodh',
+          content: [
+            'Ruangan di bagian bawah area salat utama ini berfungsi sebagai ruangan serba guna yang dapat dimanfaatkan oleh jemaah dalam pelaksaan majelis taklim dan acara keagamaan lainnya.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/ruang-temporer-marodh.png'
+        },
+        {
+          id: 14,
+          title: 'Lampu Kinetik',
+          content: [
+            'Lampu di langit-langit area marodh dengan desain yang menampilkan 99 asmaul husna berfungsi sebagai penerangan juga memperlihatkan keindahan asma Alla SWT.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/lampu-kinetik.png'
+        },
+        {
+          id: 15,
+          title: 'Retail',
+          content: [
+            'Ruangan yang disewakan untuk para pengusaha lokal menjalankan usahanya. Berdekatan dengan area cafetaria, jemaah yang hadir bisa sekaligus berbelanja dengan lebih nyaman.'
+          ],
+          isImageFirst: false,
+          image: ''
+        },
+        {
+          id: 16,
+          title: 'Cafetaria',
+          content: [
+            'Area khusus bagi para jemaah untuk beristirahat dan menikmati santapan yang dipesan dan dimasak langsung dengan konsep dapur terbuka.'
+          ],
+          isImageFirst: true,
+          image: ''
+        },
+        {
+          id: 17,
+          title: 'Air Mancur Plaza',
+          content: [
+            'Air mancur di area jembatan dapat meng-highlight momen penting kisah Nabi Musa yang membelah lautan atas kuasa Allah SWT.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/air-mancur-plaza.png'
+        },
+        {
+          id: 18,
+          title: 'Kolam Reflektif',
+          content: [
+            'Kolam yang mengelilingi keempat sisi masjid akan memperlihatkan pantulan Masjid Raya Al Jabbar terutama dengan keindahan cahayanya di malam hari. Di balik itu, keberadaan kolam reflektif mengingatkan kita sebagai manusia untuk terus berefleksi diri.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/kolam-reflektif.png'
+        },
+        {
+          id: 19,
+          title: 'Lift Eskalator',
+          content: [
+            'Dengan desain masjid yang dibuat lebih inklusif, tersedia lift dan eskalator di dua sisi jalan masuk area salat utama demi memberikan kemudahan akses bagi seluruh jamaah.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/lift-eskalator.png'
+        },
+        {
+          id: 20,
+          title: 'Multimedia permanen dan temporer',
+          content: [
+            'Seluruh area dilengkapi dengan perangkat multimedia dengan teknologi terkini untuk memberikan pengalaman terbaik bagi jemaah selama mengunjungi masjid.'
+          ],
+          isImageFirst: true,
+          image: ''
+        },
+        {
+          id: 21,
+          title: 'Ruang Edukasi',
+          content: [
+            'Ruangan khusus untuk melakukan diskusi, rapat, dan keperluan lainnya. Di dalamnya tersedia meja, kursi, dan infocus yang bisa dimanfaatkan selama penggunaan ruangan.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/ruang-edukasi.png'
+        },
+        {
+          id: 22,
+          title: 'Classroom',
+          content: [
+            'Terdapat 4 ruang kelas yang bisa digunakan dalam rangka pembelajaran dan diskusi keagamaan.'
+          ],
+          isImageFirst: true,
+          image: ''
+        },
+        {
+          id: 23,
+          title: 'Perpustakaan',
+          content: [
+            'Dapatkan akses gratis ke ratusan buku dan literatur islam yang tersedia di area perpustakaan yang terletak di dekat area cafetaria.'
+          ],
+          isImageFirst: false,
+          image: '/images/facilities/perpustakaan.png'
+        },
+        {
+          id: 24,
+          title: 'Ruang Control Room',
+          content: [
+            'Ruangan pusat dalam mengontrol seluruh area Masjid Raya Al-Jabbar sekaligus menjadi pusat informasi bagi jemaah.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/control-room.png'
+        },
+        {
+          id: 25,
+          title: 'Ruang Pengamanan Masjid',
+          content: [
+            'Ruangan di area depan masjid dengan bentuk menyerupai mesjid kecil yang untuk mendapatkan informasi dan tempat pengumpulan barang yang hilang.'
+          ],
+          isImageFirst: false,
+          image: ''
+        },
+        {
+          id: 26,
+          title: 'Wifi Gratis',
+          content: [
+            'Terdapat wifi gratis yang bisa jemaah manfaatkan di seluruh area masjid.'
+          ],
+          isImageFirst: true,
+          image: ''
+        },
+        {
+          id: 27,
+          title: 'Ruang Naskah Tua Galery Rasulullah',
+          content: [
+            'Ruangan yang berisikan replika naskah-naskah di jaman Rasulullah SAW.'
+          ],
+          isImageFirst: true,
+          image: '/images/facilities/naskah-tua.png'
         },
       ]
     },
