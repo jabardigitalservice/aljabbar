@@ -57,118 +57,145 @@ export const profile = Object.freeze(
           id: 1,
           title: 'Arsitektur Ikonik',
           content: [
-            'Arsitektur Masjid Raya Al Jabbar berbeda dari arsitektur masjid yang biasa kita temukan sehari-hari. Bentuknya seperti setengah bola raksasa yang berukuran 99 x 99 m dengan tinggi 40 meter. Maka jangan heran kalau kamu akan mendapati bentuk yang sama dan konsisten dari sisi manapun. Itulah yang membuat arsitektur masjid ini ikonik. Istimewanya lagi, masjid ini berdiri tanpa satupun kolom penyangga!'
+            'Arsitektur Masjid Raya Al Jabbar berbeda dari arsitektur masjid yang biasa ditemukan sehari-hari. Bentuknya seperti setengah bola raksasa yang berukuran 99 x 99 meter dengan tinggi 40 meter. Dengan bentuk yang sama dan konsisten dari sisi manapun membuat arsitektur masjid ini ikonik. Istimewanya lagi, masjid ini berdiri tanpa satupun kolom penyangga.'
           ],
           isImageFirst: false,
-          image: '',
+          image: '/images/features/arsitektur-ikonik.png',
         },
         {
           id: 2,
           title: 'Masjid Terapung',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun, faktanya masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/features/masjid-terapung.png'
         },
         {
           id: 3,
           title: 'Empat Menara',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Tidak lengkap rasanya jika sebuah masjid tidak memiliki menara yang mendampinginya. Bangunan Masjid Raya Al Jabbar dikelilingi oleh empat menara yang menjulang setinggi 99 meter. Selubung yang membungkus menara ini membuatnya terlihat seperti tiang dengan tekukan-tekukan. Menariknya lagi, warna biru, kuning, dan ungu di menara bisa menyala di malam hari.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/empat-menara.png'
         },
         {
           id: 4,
           title: 'Ruang Shalat Monumental',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Besar dan tingginya ruang salat, ditambah lagi tidak ada kolom-kolom yang menghalangi, membuat ruangan menjadi monumental. Ketika memasuki ruangan, kita akan merasa sangat kecil. Terlebih dengan adanya lafaz Allah yang berukuran besar tepat di atas kepala kita. Kehadirannya semakin meyakinkan kita akan kebesaran Allah SWT yang segala rahmat-Nya tidak akan berhenti untuk diberikan kepada tiap hamba-Nya.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/features/ruang-shalat-monumental.png'
         },
         {
           id: 5,
-          title: 'Lantai Mezanin',
+          title: 'Ekspresikan 27 Kabupaten/Kota Jawa Barat',
           content: [
-            'Bagi para jemaah perempuan, area salat berada di atas lantai utama salat. Tentu saja selain harus salat di sini, kamu juga akan mendapatkan pemandangan yang berbeda. Oh, berdirilah tepat di tengah-tengah, lalu abadikan dirimu dengan latar lafaz Allah dan interior masjid yang indah.'
+            'Sebagai masjid milik warga Jawa Barat, area salat dikelilingi oleh 27 relung yang merepresentasikan jumlah kota dan kabupaten di Jawa Barat. Tiap relung akan mewakili tiap kota dan kabupaten melalui motif batiknya yang dibuat dari plat tembaga dan dipahat secara manual oleh para perajin lokal.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/ekspresikan-kab-kota-jabar.png'
         },
         {
           id: 6,
-          title: 'Relung',
+          title: 'Melibatkan Perajin Lokal',
           content: [
-            'Sebelum meninggalkan area salat, berhentilah di tiap relung. Relung ini berjumlah 27 buah yang merepresentasikan 27 kota/kabupaten di Jawa Barat. Coba rasakan tiap guratan di tiap bagian relung. Ini merupakan karya ratusan pengrajin lokal yang dikerjakan manual lho!'
+            'Masjid Raya Al Jabbar dipenuhi dengan beragam karya seni dari berbagai bahan. Pembuatan kerajinan tangan tersebut melibatkan ratusan perajin lokal. Ada mozaik untuk paviliun wudu dan di bawah lantai mezanin, lampu Gentur di bawah mezanin, kerajinan tembaga di relung, kaca patri untuk koridor, kuningan di bagian railing dan mihrab, kayu jati untuk railing dan rak Al-Quran, serta standing AC.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/features/melibatkan-perajin-lokal.png'
         },
         {
           id: 7,
-          title: 'Ekspresikan 27 Kabupaten/Kota Jawa Barat',
+          title: 'Masjid Dilengkapi Museum',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Selain sebagai tempat ibadah, di bawah lantai salat Masjid Raya Al Jabbar juga akan menyuguhkan museum Rasulullah SAW serta sejarah Islam di Jawa Barat dengan penggunaan teknologi digital.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/masjid-dilengkapi-museum.png'
         },
         {
           id: 8,
-          title: 'Melibatkan Perajin Lokal',
+          title: 'Tata Cahaya Berganti Warna',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Pesona Masjid Raya Al Jabbar tidak akan ada kata selesai untuk dinikmati. Apalagi jika kamu berkesempatan untuk menikmati suasananya pada malam hari. Koridor masjid mulai memancarkan warna kekuningan. Lalu, tengoklah bangunan utama dan menaranya! Lampu-lampu juga mulai menyala dan tunggu hingga kamu akan bisa melihatnya berganti warna. Jangan ketinggalan pula, mendongaklah untuk melihat makara di atas bangunan, dia juga akan terus berganti warna!'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/features/tata-cahaya-berganti-warna.png'
         },
         {
           id: 9,
-          title: 'Masjid Dilengkapi Museum',
+          title: 'Pusat Edukasi Dan Rekreasi Religi',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Dengan keragaman fasilitas menarik yang akan disediakan, Masjid Raya Al Jabbar dirancang untuk menjadi pusat edukasi dan rekreasi religi baru bagi masyarakat. Selain museum yang akan menampilkan sejarah Rasulullah SAW beliau dari lahir hingga wafat dan sejarah Islam di Jawa Barat, masjid juga akan menyediakan perpustakaan. Taman di luar area salat juga bisa menjadi sarana edukasi untuk anak-anak.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/pusat-edukasi-dan-rekreasi-religi.png'
         },
         {
           id: 10,
+          title: 'Lantai Mezanin',
+          content: [
+            'Lantai yang berada di atas area salat utama ini dikhususkan untuk area salat jemaah perempuan. Dengan pemandangan yang berbeda, abadikan momen dengan latar lafaz Allah dan interior masjid yang indah.'
+          ],
+          isImageFirst: true,
+          image: '/images/features/lantai-mezanin.png'
+        },
+        {
+          id: 11,
+          title: 'Relung',
+          content: [
+            'Sebelum meninggalkan area salat, berhentilah di tiap relung. Relung ini berjumlah 27 buah yang merepresentasikan 27 kota dan kabupaten di Jawa Barat. Tiap guratan dalam relung merupakan karya ratusan pengrajin lokal yang dikerjakan manual.'
+          ],
+          isImageFirst: false,
+          image: '/images/features/relung.png'
+        },
+        {
+          id: 12,
           title: 'Patung Al Jabbar',
           content: [
             'Siapa sangka bahwa karya seni yang menyambut kita di area depan adalah lafaz Al Jabbar yang dipelintir? Inilah karya salah satu seniman asal Bandung. Berlatarkan patung Al Jabbar sekaligus bangunan masjid secara utuh, ini bisa spot foto terbaikmu!'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/features/patung-al-jabbar.png'
         },
         {
-          id: 11,
-          title: 'Tata Cahaya Berganti Warna',
+          id: 13,
+          title: 'Minaret',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Empat minaret yang berada di sudut-sudut masjid didesain dengan kulit yang dibuat seolah terpelintir. Kulit minaret dihiasi dengan warna-warna yang senada dengan kaca bangunan masjid.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/minaret.png'
         },
         {
-          id: 12,
-          title: 'Taman-Taman Tematik',
+          id: 14,
+          title: 'Makara',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Bagian puncak masjid didesain dengan elemen tusuk sate seperti yang terdapat pada Kantor Gubernur Jawa Barat. Lima bola pada tusuk sate melambangkan lima rukun Islam.'
           ],
           isImageFirst: true,
           image: ''
         },
         {
-          id: 13,
-          title: 'Pusat Edukasi Dan Rekreasi Religi',
+          id: 15,
+          title: 'Royal Crown',
           content: [
-            'Apabila dilihat dari kejauhan, bangunan masjid akan tampak terapung di atas air. Namun faktanya, masjid ini dibangun dengan air yang mengelilinginya di empat sisi. Pantulan bentuk masjid yang sempurna di air danau pun semakin mendukung kesan terapung yang dihadirkan di Masjid Raya Al Jabbar.'
+            'Royal Crown berada di puncak plafon area salat masjid. “Mahkota” ini berupa kaligrafi lafaz “Allah” yang berukuran sangat besar dan menggantung ke bawah.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/features/royal-crown.png'
+        },
+        {
+          id: 16,
+          title: 'Kaca Warna Warni',
+          content: [
+            'Kulit masjid dibuat dari kaca warna-warni: biru, kuning, dan ungu. Cahaya matahari yang menembus kaca memberikan pemandangan yang menarik di dalam lantai ruang salat.'
+          ],
+          isImageFirst: true,
+          image: '/images/features/kaca-warna-warni.png'
         },
       ]
     },

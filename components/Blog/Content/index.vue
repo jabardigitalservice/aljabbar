@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col lg:grid lg:grid-cols-2 gap-[10px] lg:gap-8">
-    <!-- TODO: replace div below with image when available -->
-    <div v-if="data.isImageFirst" class="bg-gray-100 w-full h-[200px] md:w-full md:h-[400px] lg:w-[476px] lg:h-[300px] xl:max-w-[624px] xl:h-[400px]"/>
+    <div v-if="data.isImageFirst" class="w-full h-[200px] md:w-full md:h-[400px] lg:w-[476px] lg:h-[300px] xl:max-w-[624px] xl:h-[400px] rounded-lg overflow-hidden">
+      <img v-if="data.image" :src="data.image" :alt="`Ilustrasi ${data.title}`">
+      <div v-else class="bg-gray-100 w-full h-full" />
+    </div>
     <div class="flex flex-col justify-center gap-6 md:gap-8 w-full lg:max-w-lg">
       <h2 v-if="data.title" class="text-gray-900 text-[32px] md:text-4xl font-medium leading-relaxed w-full break-words">
         {{ data.title }}
@@ -10,8 +12,10 @@
         {{ item }}
       </p>
     </div>
-    <!-- TODO: replace div below with image when available -->
-    <div v-if="!data.isImageFirst" class="bg-gray-100 w-full h-[200px] md:w-full md:h-[400px] lg:w-[476px] lg:h-[300px] xl:max-w-[624px] xl:h-[400px]" />
+    <div v-if="!data.isImageFirst" class="w-full h-[200px] md:w-full md:h-[400px] lg:w-[476px] lg:h-[300px] xl:max-w-[624px] xl:h-[400px] rounded-lg overflow-hidden">
+      <img v-if="data.image" :src="data.image" :alt="`Ilustrasi ${data.title}`">
+      <div v-else class="bg-gray-100 w-full h-full" />
+    </div>
   </div>
 </template>
 
