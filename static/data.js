@@ -456,27 +456,27 @@ export const profile = Object.freeze(
           id: 1,
           title: '',
           content: [
-            'Arsitektur Masjid Raya Al Jabbar sangat unik, perpaduan arsitektur modern kontemporer dengan aksentuasi masjid turki yang dihiasi seni dekoratir khas Jawa Barat. Bangunan utama masjid tidak memisahkan dinding, atap, kubah, melainkan meleburkan ketiganya menjadi satu bentuk setengah bola raksasa.',
-            'Ketiga sisi bangunan masjid dikelilingin sebuah danau besar, yang ibarat cermin, merefleksikan masjid menjadi berbentuk bulat utuh. Pada malam hari, kerlip tata cahaya menambahkan keindahan masjid. Selain keindahan, sesungguhnya danau memiliki fungsi penting lain; sebagai retensi banjir sekaligus penyimpan air. Semua hal tersebut memang direncanakan dengan sangat seksama oleh arsiteknya, Mochammad Ridwan Kamil.'
+            'Arsitektur Masjid Raya Al Jabbar dirancang dari perpaduan arsitektur modern kontemporer dengan aksentuasi masjid Turki yang dihiasi seni dekoratif khas Jawa Barat. Bangunan utama masjid tidak memisahkan dinding, atap, dan kubah, melainkan hasil peleburan ketiganya menjadi satu bentuk setengah bola raksasa.',
+            'Ketiga sisi bangunan masjid dikelilingi sebuah danau besar yang, ibarat cermin, merefleksikan masjid menjadi berbentuk bulat utuh. Pada malam hari, kerlip tata cahaya menambah keindahan masjid. Selain keindahan, danau memiliki fungsi penting lain; sebagai retensi banjir sekaligus penyimpan air. Semua hal tersebut memang direncanakan dengan sangat seksama oleh sang arsitek, Mochamad Ridwan Kamil.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/histories/history-1.png'
         },
         {
           id: 2,
           title: 'Mochammad Ridwan Kamil, Sang Arsitek Masjid Raya Al Jabbar',
           content: [
-            'Masjid Raya Al Jabbar mulai didesain tahun 2015 oleh Ridwan Kamil, sebuah kesempatan berharga yang disambut gembira. Sebab, selain berlatar belakang arsitek, Ridwan Kamil juga selalu berkeinginan dapat menunaikan wasiat sang ayahanda yang berpesan agar jangan pernah berhenti mendesain masjid. Usulan pendirian masjid didasari pada beberapa alasan. Pertama, Jawa Barat sebagai provinsi belum memiliki Masjid Raya tingkat Pemrintah Daerah Provinsi. Kedua, Jawa Barat adalah sebuah provinsi dengan jumlah penduduk pemeluk agama Islam terbanyak di Indonesia. Ketiga, Jawa Barat juga memerlukan masjid besar yang dapat membanggakan warganya.'
+            'Masjid Raya Al Jabbar mulai didesain tahun 2015 oleh Ridwan Kamil, sebuah kesempatan berharga yang disambut dengan gembira. Selain berlatar belakang arsitek, Ridwan Kamil juga selalu berkeinginan dapat menunaikan wasiat sang ayahanda yang berpesan agar jangan pernah berhenti mendesain masjid. Usulan pendirian masjid didasari beberapa alasan. Pertama, Jawa Barat sebagai sebuah provinsi belum memiliki Masjid Raya tingkat Pemerintah Daerah Provinsi. Kedua, Jawa Barat adalah sebuah provinsi dengan jumlah penduduk pemeluk agama Islam terbanyak di Indonesia. Ketiga, Jawa Barat juga memerlukan masjid besar yang dapat membanggakan warganya.'
           ],
           isImageFirst: false,
-          image: ''
+          image: '/images/histories/history-2.png'
         },
         {
           id: 3,
           title: '',
           content: [
-            'Luas dan tingginya lantai salat dihiasi 27 relung dari relief tembaga yang ditempa dengan halus oleh tangan-tangan terampil para perajin yang sangat tekun. Relief berupa motif batik ini mewakili tiap kota/kabupaten. Motif pun dipilih cermat untuk mengekspresikan kekayaan seni masyarakat Jawa Barat. Lantai di bawah mezanin diterangi lampu kuningan karya perajin Gentur, Cianjur. Warna keemasannya mampu memberi rasa mewah. Sedangkan, dinding sisi barat terdapat mihrab yang menerus ke mahkota di pucuk langin-langit melambangkan bahwa hanya kepada Allah SWT kita meminta.',
-            'Hal lain yang istimewa disini adalah adanya lantai dasar atau ma’rodh yang berisi museum sejarah Rasulullah, sejarah perkembangan Islam di tanah air, dan sejarah Islam di Jawa Barat. Hal ini menjadikan Masjid Raya Al jabbar sebagai satu-satunya masjid di Indonesia yang memiliki pusat edukasi berupa museum dengan penyajian menggunakan teknologi digital terkini yang canggih.'
+            'Luas dan tingginya lantai salat dihiasi 27 relung terbuat dari relief tembaga yang ditempa dengan halus oleh tangan-tangan terampil para perajin yang sangat tekun. Relief berupa motif batik ini mewakili tiap kota dan kabupaten yang sekaligus mengekspresikan kekayaan seni masyarakat Jawa Barat. Lantai di bawah mezanin diterangi lampu kuningan karya perajin Gentur, Cianjur, dengan warna keemasannya yang mampu memberi rasa mewah. Di bagian dinding sisi barat, terdapat mihrab yang terhubung hingga mahkota di pucuk langit-langit yang melambangkan bahwa hanya kepada Allah SWT kita meminta.',
+            'Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sejarah Rasulullah SAW, sejarah perkembangan Islam di tanah air, dan sejarah Islam di Jawa Barat. Hal ini menjadikan Masjid Raya Al Jabbar sebagai satu-satunya masjid di Indonesia yang memiliki pusat edukasi berupa museum dengan penggunaan teknologi digital terkini.'
           ],
           isImageFirst: true,
           image: ''
@@ -485,7 +485,7 @@ export const profile = Object.freeze(
           id: 4,
           title: 'Fungsi Masjid Raya Al jabbar sebagai Tempat Ibadah, Pusat Edukasi dan Wisata Religi',
           content: [
-            'Selain bangunan masjid dan danau, di lahan seluas 26 Ha ini juga terdapat taman-taman tematik tentang kenabian yang sangat menarik untuk dikunjungi oleh segala kalangan. Sedangkan, di sisi timur masjid berdiri sebuah patung kaligrafi “Al Jabbar” berwarna emas karya seniman terkemuka. Patung ini berdiri di atas plaza bundar yang permukaannya dilapisi teraso buatan tangan. Motif Wadasan berwarna biru dan kuning cerah dari teraso juga memberikan tampilan yang sungguh elegan. Kemudian, di sisi timur ini juga terdapat beberapa aksentuasi khas masjid Turki, yaitu pelataran besar dikelilingi koridor dengan naungan dihiasi kaca patri warna-warni indah, serta paviliun wudu dengan keran air bertempat duduk berhiaskan mozaik cantik karya tangan perajin Jawa Barat'
+            'Selain bangunan masjid dan danau, di lahan seluas 26 Ha ini juga terdapat taman-taman tematik tentang kenabian yang menarik untuk dikunjungi oleh berbagai kalangan. Di sisi timur masjid, berdiri sebuah patung kaligrafi “Al Jabbar” berwarna emas karya seniman terkemuka. Patung ini berdiri di atas plaza bundar yang permukaannya dilapisi teraso buatan tangan dengan motif Wadasan berwarna biru dan kuning cerah yang memberikan kesan elegan. Kemudian, di sisi timur ini juga terdapat beberapa aksentuasi khas masjid Turki yaitu pelataran besar dikelilingi koridor dengan naungan dihiasi kaca patri warna-warni, serta paviliun wudu dengan keran air bertempat duduk yang berhiaskan mozaik cantik karya tangan perajin Jawa Barat.'
           ],
           isImageFirst: false,
           image: ''
@@ -498,10 +498,9 @@ export const profile = Object.freeze(
             'Pada masa mendatang, semua yang sudah terbangun di Masjid Raya Al Jabbar; seperti museum, danau, plaza, dan taman-taman, akan membuat masjid ini tidak hanya memiliki fungsi ibadah, tetapi juga fungsi edukasi dan berpotensi sebagai pusat wisata religi Jawa Barat. Kedua fungsi terakhir ini terbuka untuk semua kalangan masyarakat yang ingin belajar dan menikmati wisata religi. Selain itu, fungsi-fungsi ini pun diharapkan dapat berdampak positif untuk mendongkrak ekonomi masyarakat lokal serta memakmurkan Masjid Raya Al Jabbar sendiri.'
           ],
           isImageFirst: true,
-          image: ''
+          image: '/images/histories/history-3.png'
         },
-      ],
-      footnote: 'Bangunan utama masjid dirancang dengan luas 99 x 99 m2 sesuai angka Asmaul Husan atau 99 nama-nama Allah yang indah dan baik dengan ketinggian puncaknya hampir mencapai 40 meter. Sedangkan, badan masjid dirancang dengan rumus matematika berulang sehingga menghasilkan bentuk sederhana setengah lingkaran namun sangat ikonik. Sebagian kulit bangunan masjid dilapisi kaca. Pada siang hari, kaca warna-warni ini membiaskan sinar matahari ke lantai shalat.'
+      ]
     },
   },
 )
